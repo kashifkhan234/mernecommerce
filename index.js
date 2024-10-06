@@ -2,9 +2,10 @@
 const express = require('express');
 const cors = require('cors');
 require('dotenv').config();
-const connectDb = require('../backend/config/db')
+const connectDb = require('../backend/config/db.js')
 const router = require('./routes');
 const cookieParser = require('cookie-parser');
+
 
 const app = express()
 app.use(cors({
