@@ -3,7 +3,7 @@ const addToCartModel = require("../../Models/cartProduct");
 const updateCartProduct = async(req,res)=>{
     try{
 const currentUserId = req.userId
-const addToCartProduct = req?.body?._id
+const addToCartProduct = req.body._id
 
 const qty = req.body.quantity
 

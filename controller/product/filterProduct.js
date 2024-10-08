@@ -2,7 +2,7 @@ const productModel = require("../../Models/ProductModel");
 
 const filterProduct = async(req, res) => {
     try{
- const CategoryList = req?.body?.Category
+ const CategoryList = req.body.Category
 
  const product = await productModel.find({
     Category : {

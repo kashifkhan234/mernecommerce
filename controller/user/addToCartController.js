@@ -2,7 +2,7 @@ const addToCartModel = require("../../Models/cartProduct")
 
 const addToCartController = async(req,res) => {
     try{
-     const { productId } = req?.body
+     const { productId } = req.body
      const currentUser = req.userId
 
      const isProductAvailable = await addToCartModel.findOne({ productId })
@@ -32,7 +32,7 @@ const addToCartController = async(req,res) => {
 
     }catch(err){
         res.status(400).json({
-            message: err?.message || err,
+            message: err.message || err,
             error: true,
             success: false,
           });
