@@ -21,10 +21,10 @@
     "jsonwebtoken": "^9.0.2",
     "mongoose": "^8.6.0",
     "nodemon": "^3.1.4",
+    "text-encoding-utf-8": "^1.0.2",
     "vm-browserify": "^1.1.2"
   },
   "engines": {
-  "node": "14.x" 
-}
-
+    "node": "14.x"
+  }
 }
