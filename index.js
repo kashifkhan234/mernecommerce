@@ -21,7 +21,7 @@ const PORT = 3001 || process.env.PORT
 
 connectDb().then(()=>{
     app.listen(PORT,()=>{
-        console.log('connect to DB')
+        console.log('connected to DB')
         console.log('Server is running')
 })
 })
