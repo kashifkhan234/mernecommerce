@@ -5,8 +5,6 @@ require('dotenv').config();
 const connectDb = require('./config/db')
 const router = require('./routes');
 const cookieParser = require('cookie-parser');
-const { TextDecoder, TextEncoder } = require('util');
-const decoder = new TextDecoder('utf8', { fatal: true });
 
 
 const app = express()
