@@ -25,7 +25,10 @@
     "text-encoding-utf-8": "^1.0.2",
     "vm-browserify": "^1.1.2"
   },
-  "engines": {
-    "node": "14.x"
-  }
+  
+    "engines": {
+      "node": ">=16.x"
+    }
+  
+  
 }
